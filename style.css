@@ -1,6 +1,10 @@
+/*general rules*/
 body {
 	background: #fffeec;
 	color: rgb(0, 0, 0);
+	line-height: 1.8;
+	text-align: center;
+    text-decoration: none;
 	font-family: 'Lora', serif;
 	font-size: 16px;
 	font-weight: 400
@@ -9,32 +13,44 @@ body {
 h1, h2 {
 	font-family: 'Arbutus Slab', serif;
 }
+
+/*page title*/ 
 h1 {
 	color: #442727;
 	font-size: 40px;
 	font-weight: bold;
-	
 }
 
+/*paragraph title*/
 h2 {
 	font-size: 22px;
 	font-weight: lighter;
 	color: #581c0c;
 }
 
+/*interactive button*/
 a {
 	text-decoration: none;
 	color: #f37121;
 	font-weight: bold;
 	font-family: 'Arbutus Slab', serif;
 }
+
 a:hover {
 	color: #810000;
 }
 
+/*video in career page*/
+video {
+	object-fit: contain;
+}
+
+ul {
+	margin-bottom: 26px;
+	margin-top: 26px;
+}
 
 /*custom design*/
-
 .container {
 	width: 700px;
 	margin: 40px auto;
@@ -51,7 +67,7 @@ a:hover {
 	}
 }
 
-
+/*design card white in both pages*/
 .card-white {
 	background: white;
 	padding: 40px;
@@ -61,20 +77,30 @@ a:hover {
 	text-align: center;
 }
 
+/*design profile image*/
 .img-circle {
 	border-radius: 50%;
 }
+
+/*design graduation image*/
+.img-square {
+	border-radius: 4px;
+}
+
+/*design orange button*/
 .btn-orange {
 	background-color: #f69314;
 	color: white;
 	padding: 15px 20px;
 	border-radius: 4px;
-}
+} 
+
 .btn-orange:hover {
 	background-color: #442727;
 	color: white;
 } 
 
+/*style list*/
 .list-inline {
 	list-style: none;
 	padding-left: 0px;
@@ -84,6 +110,8 @@ a:hover {
 	display: inline;
 	padding: 10px;
 }
+
+/*design social media button*/
 .list-inline i {
 	font-size: 50px;
 	color: rgb(230,230,230);
@@ -94,7 +122,30 @@ a:hover {
 	color: #f69314;
 }
 
+/*modify bullet points on the left*/
+.list-left {
+	text-align: left;
+}
+
+/*design CV button*/
+.btn-cv {
+	font-size: 50px;
+	color: #f69314;
+}
+
+.btn-cv:hover {
+	font-size: 50px;
+	color: #442727;
+}
+
 /*design adjustment using id */
 #introduction p{
 	margin-bottom: 40px;
+}
+
+/*design video*/
+.video {
+	width: 250px;
+	height: auto;
+	text-align: center;
 }
